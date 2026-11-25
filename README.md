@@ -1,7 +1,7 @@
 # LensCent Inquiry Studio
 
 **Where Vision Meets Precision**  
-An Arabic–English inquiry assistant for a Saudi photography studio. Built for SDAIA’s Applied Natural Language Processing Bootcamp.
+An Arabic–English inquiry assistant for a Saudi photography studio. Built for SDAIA’s Applied Natural Language Processing Bootcamp @SDAIAAcademy.
 
 > **Customer** · «أبغى أحجز جلسة تصوير تخرج في الرياض يوم الخميس»  
 > **Studio brief** · Booking · Graduation shoot · Riyadh · Thursday
