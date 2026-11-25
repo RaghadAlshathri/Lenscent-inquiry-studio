@@ -1,0 +1,506 @@
+{
+  "count": 204,
+  "customers": 102,
+  "split": {
+    "train": {
+      "messages": 120,
+      "customers": 60
+    },
+    "validation": {
+      "messages": 32,
+      "customers": 16
+    },
+    "test": {
+      "messages": 52,
+      "customers": 26
+    }
+  },
+  "seed": 37,
+  "accuracy": 0.8076923076923077,
+  "correct": 42,
+  "macro_f1": 0.8058653026427962,
+  "word_f1": 0.7425680142384948,
+  "accuracy_ci": [
+    0.6923,
+    0.9038
+  ],
+  "per_class": [
+    {
+      "key": "edit_request",
+      "precision": 0.875,
+      "recall": 0.7777777777777778,
+      "f1": 0.8235294117647058,
+      "n": 9
+    },
+    {
+      "key": "gallery_access",
+      "precision": 0.8333333333333334,
+      "recall": 0.9090909090909091,
+      "f1": 0.8695652173913043,
+      "n": 11
+    },
+    {
+      "key": "outside",
+      "precision": 0.7777777777777778,
+      "recall": 0.5833333333333334,
+      "f1": 0.6666666666666666,
+      "n": 12
+    },
+    {
+      "key": "package_pricing",
+      "precision": 0.7692307692307693,
+      "recall": 1.0,
+      "f1": 0.8695652173913043,
+      "n": 10
+    },
+    {
+      "key": "session_booking",
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8,
+      "n": 10
+    }
+  ],
+  "labels": [
+    "edit_request",
+    "gallery_access",
+    "outside",
+    "package_pricing",
+    "session_booking"
+  ],
+  "confusion": [
+    [
+      7,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      10,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      2,
+      7,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      10,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      8
+    ]
+  ],
+  "slices": {
+    "language": [
+      {
+        "name": "ar",
+        "n": 40,
+        "accuracy": 0.9
+      },
+      {
+        "name": "en",
+        "n": 12,
+        "accuracy": 0.5
+      }
+    ],
+    "dialect": [
+      {
+        "name": "English",
+        "n": 12,
+        "accuracy": 0.5
+      },
+      {
+        "name": "سعودية",
+        "n": 20,
+        "accuracy": 0.8
+      },
+      {
+        "name": "سورية",
+        "n": 4,
+        "accuracy": 1.0
+      },
+      {
+        "name": "عراقية",
+        "n": 2,
+        "accuracy": 1.0
+      },
+      {
+        "name": "فصحى",
+        "n": 2,
+        "accuracy": 1.0
+      },
+      {
+        "name": "كويتية",
+        "n": 4,
+        "accuracy": 1.0
+      },
+      {
+        "name": "مصرية",
+        "n": 4,
+        "accuracy": 1.0
+      },
+      {
+        "name": "مغربية",
+        "n": 4,
+        "accuracy": 1.0
+      }
+    ],
+    "length": [
+      {
+        "name": "طويلة",
+        "n": 27,
+        "accuracy": 0.7777777777777778
+      },
+      {
+        "name": "قصيرة",
+        "n": 25,
+        "accuracy": 0.84
+      }
+    ]
+  },
+  "accepted": 28,
+  "accepted_correct": 25,
+  "retrieval": {
+    "n": 24,
+    "student": {
+      "top1": 0.625,
+      "recall3": 0.9166666666666666,
+      "mrr3": 0.7638888888888888
+    },
+    "teacher": {
+      "top1": 0.9583333333333334,
+      "recall3": 0.9583333333333334,
+      "mrr3": 0.9583333333333334
+    }
+  },
+  "test_rows": [
+    {
+      "masked_text": "بكم تصوير عشرين قطعة للمتجر بخلفية موحّدة؟",
+      "topic": "package_pricing",
+      "prediction": "package_pricing",
+      "route": "answer"
+    },
+    {
+      "masked_text": "ياليت توحدون الخلفية البيضاء في صور المنتجات.",
+      "topic": "edit_request",
+      "prediction": "package_pricing",
+      "route": "answer"
+    },
+    {
+      "masked_text": "لون القهوة طالع غامق، ممكن تفتحونه شوي؟",
+      "topic": "edit_request",
+      "prediction": "edit_request",
+      "route": "answer"
+    },
+    {
+      "masked_text": "كيف أحمّل الألبوم كامل مرة وحدة؟",
+      "topic": "gallery_access",
+      "prediction": "gallery_access",
+      "route": "clarify_faq"
+    },
+    {
+      "masked_text": "وش الأوقات المتوفرة عندكم لجلسة تصوير مولود؟",
+      "topic": "session_booking",
+      "prediction": "session_booking",
+      "route": "answer"
+    },
+    {
+      "masked_text": "أحتاج رابط جديد للمعرض عشان أنزل صور المولود.",
+      "topic": "gallery_access",
+      "prediction": "gallery_access",
+      "route": "clarify_faq"
+    },
+    {
+      "masked_text": "كيف أغيّر وقت جلستي من العصر للمغرب؟",
+      "topic": "session_booking",
+      "prediction": "session_booking",
+      "route": "clarify_topic"
+    },
+    {
+      "masked_text": "كيف أشارك رابط الألبوم مع أمي؟",
+      "topic": "gallery_access",
+      "prediction": "gallery_access",
+      "route": "answer"
+    },
+    {
+      "masked_text": "أبي أنقل الحجز ليوم ثاني، يناسبكم الأحد؟",
+      "topic": "session_booking",
+      "prediction": "outside",
+      "route": "clarify_topic"
+    },
+    {
+      "masked_text": "للحين ما وصلني رابط المعرض وين ألقاه؟",
+      "topic": "gallery_access",
+      "prediction": "gallery_access",
+      "route": "answer"
+    },
+    {
+      "masked_text": "كم سعر فوتوبوث لمدة ليلتين في الخبر؟",
+      "topic": "package_pricing",
+      "prediction": "package_pricing",
+      "route": "answer"
+    },
+    {
+      "masked_text": "أبي أحجز فوتوبوث للحفل، فيه مواعيد؟",
+      "topic": "session_booking",
+      "prediction": "outside",
+      "route": "outside"
+    },
+    {
+      "masked_text": "الإضاءة حيل قوية، ممكن تخففونها؟",
+      "topic": "edit_request",
+      "prediction": "edit_request",
+      "route": "answer"
+    },
+    {
+      "masked_text": "إيش أسعار الباقات حقت تصوير المطاعم؟",
+      "topic": "package_pricing",
+      "prediction": "package_pricing",
+      "route": "answer"
+    },
+    {
+      "masked_text": "وش نتيجة مباراة الهلال أمس؟",
+      "topic": "outside",
+      "prediction": "outside",
+      "route": "outside"
+    },
+    {
+      "masked_text": "عندكم جدول مباريات الأسبوع؟",
+      "topic": "outside",
+      "prediction": "session_booking",
+      "route": "answer"
+    },
+    {
+      "masked_text": "يطلب مني المعرض كلمة مرور وش أسوي؟",
+      "topic": "gallery_access",
+      "prediction": "gallery_access",
+      "route": "answer"
+    },
+    {
+      "masked_text": "ممكن تثبتون موعد جلسة لخريجات الجامعة؟",
+      "topic": "session_booking",
+      "prediction": "session_booking",
+      "route": "answer"
+    },
+    {
+      "masked_text": "وش فرق التكلفة بين الباقتين؟",
+      "topic": "package_pricing",
+      "prediction": "package_pricing",
+      "route": "clarify_faq"
+    },
+    {
+      "masked_text": "الخصل على الوجه ودي تنشال من اللقطة",
+      "topic": "edit_request",
+      "prediction": "edit_request",
+      "route": "answer"
+    },
+    {
+      "masked_text": "أبي أحجز جلسة تصوير حق تخرجي، شنو المواعيد؟",
+      "topic": "session_booking",
+      "prediction": "session_booking",
+      "route": "answer"
+    },
+    {
+      "masked_text": "بجم باقة التخرج عندكم؟",
+      "topic": "package_pricing",
+      "prediction": "package_pricing",
+      "route": "answer"
+    },
+    {
+      "masked_text": "شلون أجدد رخصة السيارة؟",
+      "topic": "outside",
+      "prediction": "outside",
+      "route": "outside"
+    },
+    {
+      "masked_text": "وين ألقى مواعيد الباص؟",
+      "topic": "outside",
+      "prediction": "outside",
+      "route": "outside"
+    },
+    {
+      "masked_text": "ممكن تشيلوا الكرسي اللي ورايا في الصورة؟",
+      "topic": "edit_request",
+      "prediction": "edit_request",
+      "route": "clarify_faq"
+    },
+    {
+      "masked_text": "لينك الألبوم مش بيفتح عندي",
+      "topic": "gallery_access",
+      "prediction": "gallery_access",
+      "route": "answer"
+    },
+    {
+      "masked_text": "أطلع بدل فاقد للبطاقة إزاي؟",
+      "topic": "outside",
+      "prediction": "outside",
+      "route": "clarify_topic"
+    },
+    {
+      "masked_text": "مواعيد المترو النهارده إيه؟",
+      "topic": "outside",
+      "prediction": "outside",
+      "route": "outside"
+    },
+    {
+      "masked_text": "بدي احجز جلسة تصوير للتخرج، شو الأوقات الفاضية؟",
+      "topic": "session_booking",
+      "prediction": "session_booking",
+      "route": "answer"
+    },
+    {
+      "masked_text": "قديش سعر باقة الصور العائلية؟",
+      "topic": "package_pricing",
+      "prediction": "package_pricing",
+      "route": "answer"
+    },
+    {
+      "masked_text": "فيني غيّر موعد الجلسة للسبت؟",
+      "topic": "session_booking",
+      "prediction": "session_booking",
+      "route": "clarify_faq"
+    },
+    {
+      "masked_text": "قديش بتزيد التكلفة إذا زدنا نص ساعة؟",
+      "topic": "package_pricing",
+      "prediction": "package_pricing",
+      "route": "answer"
+    },
+    {
+      "masked_text": "رابط الألبوم ما يفتح عندي شسوي؟",
+      "topic": "gallery_access",
+      "prediction": "gallery_access",
+      "route": "answer"
+    },
+    {
+      "masked_text": "ممكن تعدلون اللون لأن الصورة كلش غامقة؟",
+      "topic": "edit_request",
+      "prediction": "edit_request",
+      "route": "answer"
+    },
+    {
+      "masked_text": "الرابط ديال الألبوم ما خدامش",
+      "topic": "gallery_access",
+      "prediction": "gallery_access",
+      "route": "clarify_faq"
+    },
+    {
+      "masked_text": "واش ممكن تحيدو داك الكرسي من التصويرة؟",
+      "topic": "edit_request",
+      "prediction": "edit_request",
+      "route": "clarify_topic"
+    },
+    {
+      "masked_text": "واش كاين شي قطار لمراكش؟",
+      "topic": "outside",
+      "prediction": "outside",
+      "route": "outside"
+    },
+    {
+      "masked_text": "ما وصلنيش الكود ديال المعرض",
+      "topic": "gallery_access",
+      "prediction": "gallery_access",
+      "route": "answer"
+    },
+    {
+      "masked_text": "هل يمكنني تغيير تاريخ جلسة التصوير؟",
+      "topic": "session_booking",
+      "prediction": "session_booking",
+      "route": "answer"
+    },
+    {
+      "masked_text": "هل تتضمن الباقة صوراً مطبوعة؟",
+      "topic": "package_pricing",
+      "prediction": "package_pricing",
+      "route": "answer"
+    },
+    {
+      "masked_text": "Please brighten the group portrait a little",
+      "topic": "edit_request",
+      "prediction": "session_booking",
+      "route": "clarify_topic"
+    },
+    {
+      "masked_text": "How do I download the full album in one go?",
+      "topic": "gallery_access",
+      "prediction": "gallery_access",
+      "route": "answer"
+    },
+    {
+      "masked_text": "How do I renew my passport?",
+      "topic": "outside",
+      "prediction": "gallery_access",
+      "route": "answer"
+    },
+    {
+      "masked_text": "Where can I apply for a driving licence?",
+      "topic": "outside",
+      "prediction": "outside",
+      "route": "clarify_topic"
+    },
+    {
+      "masked_text": "Can you fix the red tint in my headshot?",
+      "topic": "edit_request",
+      "prediction": "edit_request",
+      "route": "answer"
+    },
+    {
+      "masked_text": "What would another set of prints cost?",
+      "topic": "package_pricing",
+      "prediction": "package_pricing",
+      "route": "clarify_faq"
+    },
+    {
+      "masked_text": "How do I pay a parking fine?",
+      "topic": "outside",
+      "prediction": "gallery_access",
+      "route": "clarify_topic"
+    },
+    {
+      "masked_text": "Can you recommend a pizza place?",
+      "topic": "outside",
+      "prediction": "edit_request",
+      "route": "clarify_faq"
+    },
+    {
+      "masked_text": "What's the weather in Riyadh tomorrow?",
+      "topic": "outside",
+      "prediction": "package_pricing",
+      "route": "clarify_topic"
+    },
+    {
+      "masked_text": "Is there a morning slot for our newborn pictures?",
+      "topic": "session_booking",
+      "prediction": "session_booking",
+      "route": "answer"
+    },
+    {
+      "masked_text": "How much do you charge per additional edited image?",
+      "topic": "package_pricing",
+      "prediction": "package_pricing",
+      "route": "clarify_faq"
+    },
+    {
+      "masked_text": "Can you help me save high-resolution photos?",
+      "topic": "gallery_access",
+      "prediction": "package_pricing",
+      "route": "clarify_topic"
+    }
+  ],
+  "camelbert_f1": 0.8100287081339712
+}

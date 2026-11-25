@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#360d15">
+  <meta name="description" content="مكتب LensCent لتحليل استفسارات التصوير ومراجعة مسودات الرد وقراءة أداء النموذج.">
+  <title>LensCent | مكتب الاستفسارات</title>
+  <link rel="icon" href="assets/wordmark.png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="model.js"></script><script defer src="metrics.js"></script>
+  <script defer src="engine.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">تجاوز إلى المحتوى</a>
+<header class="top">
+  <div class="shell top-inner">
+    <a class="brand" href="#studio" aria-label="LensCent، مكتب الاستفسارات"><img src="assets/wordmark.png" alt="LensCent"></a>
+    <nav aria-label="تنقّل رئيسي"><a href="#studio" data-page="studio">تحليل الرسائل</a><a href="#evaluation" data-page="evaluation">أداء النموذج</a><a href="#guide" data-page="guide">دليل الردود</a></nav>
+    <span class="top-signature" dir="ltr">Where Vision Meets Precision</span>
+  </div>
+</header>
+<main id="main" class="shell">
+<section id="studio" class="page">
+  <div class="masthead">
+    <div class="mast-copy"><p class="english-title" lang="en" dir="ltr">Inquiry Studio</p>
+      <h1>مكتب الاستفسارات</h1>
+      <p class="mast-desc">تحليل استفسارات التصوير بالعربية والإنجليزية وإعداد مسودة للرد.</p>
+    </div>
+    <figure class="cover"><img src="assets/arcade.webp" alt="ممر تتكرر فيه الأقواس ويمرّ به الزوار، من غلاف هوية LensCent"><span class="crop c1"></span><span class="crop c2"></span></figure>
+  </div>
+  <div class="workspace">
+    <section class="panel composer">
+      <div class="section-heading"><span class="accent-line"></span><h2><label for="message">رسالة العميل</label></h2></div>
+      <form id="form">
+        <div class="textarea-wrap"><textarea id="message" maxlength="800" rows="4" dir="auto" placeholder="مثال «وين رابط ألبوم التخرّج؟»"></textarea>
+          <div class="input-foot"><span>العربية أو الإنجليزية</span><bdi id="length" dir="ltr">0 / 800</bdi></div></div>
+        <div class="sample-label">أمثلة من الاستوديو</div><div id="samples" class="sample-list" aria-label="أمثلة تفاعلية"></div>
+        <div class="form-actions"><button type="submit" class="primary">تحليل الرسالة <span aria-hidden="true">←</span></button><button type="button" id="clear" class="text-btn">مسح</button></div>
+      </form>
+      <p class="privacy">تُعالَج الرسالة داخل متصفحك، ويُحجب البريد ورقم الجوال السعودي في عرض التحليل.</p>
+    </section>
+    <section class="panel result-panel" aria-label="نتيجة التحليل">
+      <div class="result-top"><div class="section-heading"><span class="accent-line"></span><h2>نتيجة التحليل</h2></div><span id="badge" class="status"></span></div>
+      <div id="result"></div><p id="announcement" class="sr" role="status" aria-live="polite"></p>
+    </section>
+  </div>
+</section>
+<section id="evaluation" class="page" hidden>
+  <div class="page-head"><div><p class="english-title" dir="ltr" lang="en">Model Evaluation</p><h1>أداء النموذج</h1><p>نتائج اختبار على رسائل تعليمية من عملاء افتراضيين منفصلين عن التدريب والتحقق.</p></div></div>
+  <div id="metrics-intro" class="metric-strip"></div>
+  <div class="chart-grid">
+    <section class="panel"><div class="section-heading"><span class="accent-line"></span><h2>الأداء حسب نوع الطلب</h2></div>
+      <label class="control-label">المقياس <select id="score-choice"><option value="f1">F1</option><option value="recall">Recall</option><option value="precision">Precision</option></select></label>
+      <div id="class-chart"></div><p id="score-note" class="note"></p></section>
+    <section class="panel"><div class="section-heading"><span class="accent-line"></span><h2>مصفوفة الالتباس</h2></div>
+      <p class="note">الصف هو التصنيف الصحيح، والعمود هو التوقّع. تعرض كل خانة رسائل الاختبار المرتبطة بها.</p>
+      <div class="matrix-wrap" id="matrix"></div><div id="matrix-detail" class="matrix-detail" aria-live="polite"></div></section>
+    <section class="panel"><div class="section-heading"><span class="accent-line"></span><h2>الدقّة حسب شريحة الرسائل</h2></div>
+      <label class="control-label">تجميع حسب <select id="slice-choice"><option value="language">اللغة</option><option value="dialect">اللهجة المكتوبة</option><option value="length">طول الرسالة</option></select></label>
+      <div id="slice-chart"></div><p class="note" id="slice-note"></p></section>
+    <section class="panel"><div class="section-heading"><span class="accent-line"></span><h2>استرجاع الرد المناسب</h2></div><div id="retrieval"></div></section>
+  </div>
+  <section class="panel model-compare"><div class="section-heading"><span class="accent-line"></span><h2>مقارنة نماذج التصنيف</h2></div><div id="comparison"></div></section>
+  <details class="method"><summary>كيف دُرّب النموذج وحُسبت النتائج؟</summary><div id="method-body"></div></details>
+</section>
+<section id="guide" class="page" hidden>
+  <div class="page-head"><div><p class="english-title" dir="ltr" lang="en">Reply Library</p><h1>دليل الردود</h1><p>ثمانية مراجع لاستفسارات التصوير، لكل منها صياغة عربية وإنجليزية.</p></div></div>
+  <div class="guide-toolbar"><label for="guide-filter">نوع الطلب</label><select id="guide-filter"><option value="all">جميع الطلبات</option></select></div>
+  <div id="guide-list" class="guide-grid"></div>
+</section>
+</main>
+<footer class="shell"><span>LensCent</span><small>مشروع معسكر سدايا لمعالجة اللغات الطبيعية التطبيقية</small></footer>
+<dialog id="source-dialog"><div class="dialog-inner"><div class="result-top"><div class="section-heading"><span class="accent-line"></span><h2>مرجع الردّ</h2></div><button id="close-dialog" class="close" aria-label="إغلاق">×</button></div><div id="source-body"></div></div></dialog>
+</body></html>

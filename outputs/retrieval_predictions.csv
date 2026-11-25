@@ -1,0 +1,25 @@
+﻿faq_id,language,text,student_top1,teacher_top1,student_rank
+B01,ar,نبي نصور التخرج الجمعة هل عندكم فراغ؟,B01,B01,1
+B01,en,Is there a photographer free next Tuesday for a family portrait?,B01,B01,1
+B01,ar,أبحث عن موعد جديد لجلسة تصوير,B01,B01,1
+B02,en,Our shoot is already booked. Could we postpone it by a week?,B01,B02,2
+B02,ar,ثبتنا الجلسة أمس ونبي نقدم موعدها شوي,B01,B02,2
+B02,ar,ينفع أبدّل يوم السيشن المحجوز؟,P01,B02,6
+P01,ar,حابة أعرف قيمة باقة صور المتجر وإيش فيها,P01,P01,1
+P01,en,Could I see a price list for your portrait packages?,P01,P01,1
+P01,ar,بشحال كتصورو جلسة ديال العائلة؟,P01,B01,1
+P02,en,Does staying for another hour increase the bill?,P01,P02,3
+P02,ar,كم أدفع زيادة لو طلبت عشر طبعات؟,P02,P02,1
+P02,en,What is the fee for one extra edited photo?,P02,P02,1
+E01,ar,ممكن تفتحون اللقطة لأنها طالعة مظلمة؟,E02,E01,2
+E01,en,The skin tone looks too warm in the portrait. Could you fix it?,E01,E01,1
+E01,ar,يا ليت تبردون الألوان في صور الحفل,E01,E01,1
+E02,en,Could the editor take out the bag beside my chair?,E01,E02,5
+E02,ar,فيه سلك وراي بالتحديد أبيه ينشال,P01,E02,2
+E02,en,Please crop the empty area on the right,E02,E02,1
+G01,ar,ما أقدر أدخل معرض جلستي لأن الرابط منتهي,B02,G01,2
+G01,en,I lost the email with the gallery access code,G01,G01,1
+G01,ar,محتاجة رابط الألبوم مرة ثانية,G01,G01,1
+G02,en,The gallery opens but saving the zip to my laptop fails,G01,G02,2
+G02,ar,دخلت ألبومي وأبغى أحفظ النسخ الأصلية عندي,G02,G02,1
+G02,en,How do I get all the files onto my phone at once?,G02,G02,1

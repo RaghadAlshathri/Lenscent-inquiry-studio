@@ -1,0 +1,205 @@
+customer_id,text,topic,language,dialect,source
+LC01,عندكم موعد لجلسة تخرج يوم الخميس قبل الغروب؟,session_booking,ar,سعودية,lab3a
+LC01,كم سعر باقة التخرج لو انضمت لي أختي؟,package_pricing,ar,سعودية,lab3a
+LC02,ممكن تخففون اللمعة على النظارة في الصورة الثالثة؟,edit_request,ar,سعودية,lab3a
+LC02,دخلت معرض الصور لكن زر التحميل ما يستجيب.,gallery_access,ar,سعودية,lab3a
+LC03,أبي أحجز مصورة لتغطية افتتاح مطعمنا الأسبوع الجاي.,session_booking,ar,سعودية,lab3a
+LC03,رابط ألبوم الافتتاح يطلب رمز دخول، وين ألقاه؟,gallery_access,ar,سعودية,lab3a
+LC04,بكم تصوير عشرين قطعة للمتجر بخلفية موحّدة؟,package_pricing,ar,سعودية,lab3a
+LC04,ياليت توحدون الخلفية البيضاء في صور المنتجات.,edit_request,ar,سعودية,lab3a
+LC05,نبي نثبت موعد تصوير عائلي صباح السبت.,session_booking,ar,سعودية,lab3a
+LC05,أبغى تقصون الطرف اليسار من الصورة العائلية.,edit_request,ar,سعودية,lab3a
+LC06,إذا زدنا ساعة على التغطية كم تطلع التكلفة؟,package_pricing,ar,سعودية,lab3a
+LC06,انتهت صلاحية رابط الصور قبل ما أنزلها، ممكن تجددونه؟,gallery_access,ar,سعودية,lab3a
+LC07,هل الأربعاء فاضي عشان أصور المنيو الجديد؟,session_booking,ar,سعودية,lab3a
+LC07,أحتاج عرض سعر لتصوير أطباق المنيو من زاويتين.,package_pricing,ar,سعودية,lab3a
+LC08,لون القهوة طالع غامق، ممكن تفتحونه شوي؟,edit_request,ar,سعودية,lab3a
+LC08,كيف أحمّل الألبوم كامل مرة وحدة؟,gallery_access,ar,سعودية,lab3a
+LC09,حابّة أحجز جلسة بورتريه داخل الاستوديو بعد الدوام.,session_booking,ar,سعودية,lab3a
+LC09,كتبت كلمة المرور للمعرض ويطلع لي إنها خطأ.,gallery_access,ar,سعودية,lab3a
+LC10,كم فرق السعر بين الباقة الرقمية والباقة مع الطباعة؟,package_pricing,ar,سعودية,lab3a
+LC10,ممكن تحولون لقطة البورتريه لأبيض وأسود؟,edit_request,ar,سعودية,lab3a
+LC11,محتاجين مصور يوم الأحد لتصوير فريق الشركة، متاح؟,session_booking,ar,سعودية,lab3a
+LC11,انعكاس الشباك واضح خلف الفريق، يمدي تشيلونه؟,edit_request,ar,سعودية,lab3a
+LC12,ودي أعرف تسعيرة تغطية حفل لمدة ساعتين.,package_pricing,ar,سعودية,lab3a
+LC12,أرسلتوا لي المعرض بس ما لقيت رابط التنزيل.,gallery_access,ar,سعودية,lab3a
+LC13,أقدر أحجز تصوير للمعرض الفني ليلة الافتتاح؟,session_booking,ar,سعودية,lab3a
+LC13,كم تحسبون تصوير اللوحة الواحدة بجودة عالية؟,package_pricing,ar,سعودية,lab3a
+LC14,الصورة رقم سبعة مائلة، عدّلوا استقامتها لو سمحتوا.,edit_request,ar,سعودية,lab3a
+LC14,يطلع لي خطأ لما أحاول أفتح ألبوم المناسبة بالجوال.,gallery_access,ar,سعودية,lab3a
+LC15,وش الأوقات المتوفرة عندكم لجلسة تصوير مولود؟,session_booking,ar,سعودية,lab3a
+LC15,أحتاج رابط جديد للمعرض عشان أنزل صور المولود.,gallery_access,ar,سعودية,lab3a
+LC16,ميزانيتي ألف ريال، وش باقة التصوير اللي تناسبها؟,package_pricing,ar,سعودية,lab3a
+LC16,ممكن تخففون تشبع الألوان في اللقطة الأخيرة؟,edit_request,ar,سعودية,lab3a
+LC17,أبغى موعد لتصوير العطور قبل إطلاق التشكيلة.,session_booking,ar,سعودية,lab3a
+LC17,أزيلوا الغبار الظاهر على زجاجة العطر في الصورة.,edit_request,ar,سعودية,lab3a
+LC18,أبي أعرف تكلفة تصوير المنتجات إذا عددها خمسين.,package_pricing,ar,سعودية,lab3a
+LC18,وين أحصل خيار تنزيل النسخ الأصلية من الألبوم؟,gallery_access,ar,سعودية,lab3a
+LC19,عندكم وقت عصر الجمعة عشان نحجز تصوير للخطوبة؟,session_booking,ar,سعودية,lab3a
+LC19,هل سعر باقة الخطوبة يشمل ألبوم مطبوع؟,package_pricing,ar,سعودية,lab3a
+LC20,تقدرون تضبطون توازن اللون الأبيض في صور القاعة؟,edit_request,ar,سعودية,lab3a
+LC20,المعرض يفتح عندي لكن الملف المضغوط ما يتحمل.,gallery_access,ar,سعودية,lab3a
+D001,ودي أحجز تصوير تخرج بالرياض يوم الخميس,session_booking,ar,سعودية,capstone
+D001,بكم باقة التخرج لو أضفت صور مطبوعة؟,package_pricing,ar,سعودية,capstone
+D002,كيف أغيّر وقت جلستي من العصر للمغرب؟,session_booking,ar,سعودية,capstone
+D002,كيف أشارك رابط الألبوم مع أمي؟,gallery_access,ar,سعودية,capstone
+D003,وش تشمل باقة تصوير العطور للمتجر؟,package_pricing,ar,سعودية,capstone
+D003,تقدرون تشيلون الانعكاس من علبة العطر؟,edit_request,ar,سعودية,capstone
+D004,رابط تحميل صوري انتهت صلاحيته من أمس,gallery_access,ar,سعودية,capstone
+D004,أبغى أخفف الاصفرار في آخر لقطة,edit_request,ar,سعودية,capstone
+D005,أبغى موعد لتصوير الملكة في جدة,session_booking,ar,سعودية,capstone
+D005,كم تحسبون الساعة الإضافية؟,package_pricing,ar,سعودية,capstone
+D006,أبي أنقل الحجز ليوم ثاني، يناسبكم الأحد؟,session_booking,ar,سعودية,capstone
+D006,للحين ما وصلني رابط المعرض وين ألقاه؟,gallery_access,ar,سعودية,capstone
+D007,وشلون أطلب تعديل ألوان البورتريه؟,edit_request,ar,سعودية,capstone
+D007,ضغطت تنزيل بس يطلع لي الملف فاضي,gallery_access,ar,سعودية,capstone
+D008,كيف أجدد جواز السفر؟,outside,ar,سعودية,capstone
+D008,وين ألقى نموذج تجديد الهوية؟,outside,ar,سعودية,capstone
+D009,كم سعر فوتوبوث لمدة ليلتين في الخبر؟,package_pricing,ar,سعودية,capstone
+D009,أبي أحجز فوتوبوث للحفل، فيه مواعيد؟,session_booking,ar,سعودية,capstone
+D010,ما عرفت أنزّل كل الصور دفعة وحدة,gallery_access,ar,سعودية,capstone
+D010,إذا أبي نسخ رقمية بس، يفرق السعر؟,package_pricing,ar,سعودية,capstone
+D011,يمديكم تقصّون اللي واقف على طرف الصورة؟,edit_request,ar,سعودية,capstone
+D011,أبي أأجل تصوير العائلة للأسبوع الجاي,session_booking,ar,سعودية,capstone
+D012,الإضاءة حيل قوية، ممكن تخففونها؟,edit_request,ar,سعودية,capstone
+D012,إيش أسعار الباقات حقت تصوير المطاعم؟,package_pricing,ar,سعودية,capstone
+D013,وش نتيجة مباراة الهلال أمس؟,outside,ar,سعودية,capstone
+D013,عندكم جدول مباريات الأسبوع؟,outside,ar,سعودية,capstone
+D014,أبي أحجز طاولة لشخصين في مطعم,outside,ar,سعودية,capstone
+D014,كيف أطلب توصيل عشاء اليوم؟,outside,ar,سعودية,capstone
+D015,يطلب مني المعرض كلمة مرور وش أسوي؟,gallery_access,ar,سعودية,capstone
+D015,ممكن تثبتون موعد جلسة لخريجات الجامعة؟,session_booking,ar,سعودية,capstone
+D016,وش فرق التكلفة بين الباقتين؟,package_pricing,ar,سعودية,capstone
+D016,الخصل على الوجه ودي تنشال من اللقطة,edit_request,ar,سعودية,capstone
+D017,كم سعر تذكرة الطيران للدمام؟,outside,ar,سعودية,capstone
+D017,عندك مواعيد رحلات القطار؟,outside,ar,سعودية,capstone
+D018,كيف أفعّل بطاقة الصراف الجديدة؟,outside,ar,سعودية,capstone
+D018,تظهر لي شاشة بيضا إذا دخلت على ألبومي,gallery_access,ar,سعودية,capstone
+D019,ودي نصور منتجاتي صباح الاثنين عندكم شاغر؟,session_booking,ar,سعودية,capstone
+D019,أبغى الخلفية أفتح بشوي إذا ممكن,edit_request,ar,سعودية,capstone
+D020,التحميل من الجوال يوقف بالنص,gallery_access,ar,سعودية,capstone
+D020,تسعيرتكم للتغطية بالساعات ولا باليوم؟,package_pricing,ar,سعودية,capstone
+D021,أبي أحجز جلسة تصوير حق تخرجي، شنو المواعيد؟,session_booking,ar,كويتية,capstone
+D021,بجم باقة التخرج عندكم؟,package_pricing,ar,كويتية,capstone
+D022,دزيتوا اللنك بس مو راضي يفتح,gallery_access,ar,كويتية,capstone
+D022,أبيكم تشيلون الظل اللي وراي بالصورة,edit_request,ar,كويتية,capstone
+D023,إذا زدنا ساعة تصوير بجم تطلع علينا؟,package_pricing,ar,كويتية,capstone
+D023,يصير أبدل وقت موعدي ليوم الخميس؟,session_booking,ar,كويتية,capstone
+D024,شلون أنزل كل الصور من الألبوم؟,gallery_access,ar,كويتية,capstone
+D024,عندكم مجال نصور العايلة الويكند؟,session_booking,ar,كويتية,capstone
+D025,الإضاءة وايد صفرا ممكن تعدلونها؟,edit_request,ar,كويتية,capstone
+D025,شنو داخل بباقة تصوير العرس؟,package_pricing,ar,كويتية,capstone
+D026,شلون أجدد رخصة السيارة؟,outside,ar,كويتية,capstone
+D026,وين ألقى مواعيد الباص؟,outside,ar,كويتية,capstone
+D027,أبي أحجز تذكرتين حق السينما,outside,ar,كويتية,capstone
+D027,يطلب مني باسورد للمعرض وما عندي,gallery_access,ar,كويتية,capstone
+D028,شيلوا الشخص اللي ورا العروس لو سمحتوا,edit_request,ar,كويتية,capstone
+D028,بجم تصوير المنيو حق مطعمي؟,package_pricing,ar,كويتية,capstone
+D029,عايزة أحجز سيشن تخرج يوم الجمعة,session_booking,ar,مصرية,capstone
+D029,باقة التصوير بكام لو معايا صاحبتي؟,package_pricing,ar,مصرية,capstone
+D030,ممكن تشيلوا الكرسي اللي ورايا في الصورة؟,edit_request,ar,مصرية,capstone
+D030,لينك الألبوم مش بيفتح عندي,gallery_access,ar,مصرية,capstone
+D031,أسعار تصوير المنتجات بتبدأ من كام؟,package_pricing,ar,مصرية,capstone
+D031,ينفع أغير معاد السيشن لبكرة؟,session_booking,ar,مصرية,capstone
+D032,أنزّل الصور كلها إزاي على الموبايل؟,gallery_access,ar,مصرية,capstone
+D032,الصورة غامقة قوي، ممكن تفتحوها شوية؟,edit_request,ar,مصرية,capstone
+D033,في معاد فاضي لتصوير الخطوبة آخر الأسبوع؟,session_booking,ar,مصرية,capstone
+D033,الساعة الزيادة بكام؟,package_pricing,ar,مصرية,capstone
+D034,أطلع بدل فاقد للبطاقة إزاي؟,outside,ar,مصرية,capstone
+D034,مواعيد المترو النهارده إيه؟,outside,ar,مصرية,capstone
+D035,عايزة أحجز كشف عند الدكتور,outside,ar,مصرية,capstone
+D035,بيقول لي كلمة السر غلط وأنا بفتح المعرض,gallery_access,ar,مصرية,capstone
+D036,عايزة تعديل بسيط في ألوان صور الفرح,edit_request,ar,مصرية,capstone
+D036,لسه مستنية لينك التحميل هيوصل إمتى؟,gallery_access,ar,مصرية,capstone
+D037,بدي احجز جلسة تصوير للتخرج، شو الأوقات الفاضية؟,session_booking,ar,سورية,capstone
+D037,قديش سعر باقة الصور العائلية؟,package_pricing,ar,سورية,capstone
+D038,رابط الصور ما عم يفتح معي,gallery_access,ar,سورية,capstone
+D038,فيكن تعدلوا ضو الصورة؟ طالعة عتمة,edit_request,ar,سورية,capstone
+D039,فيني غيّر موعد الجلسة للسبت؟,session_booking,ar,سورية,capstone
+D039,قديش بتزيد التكلفة إذا زدنا نص ساعة؟,package_pricing,ar,سورية,capstone
+D040,بدي تشيلوا الشنطة اللي بالخلفية,edit_request,ar,سورية,capstone
+D040,كيف بنزّل الألبوم دفعة وحدة؟,gallery_access,ar,سورية,capstone
+D041,شو حالة الطقس بكرا؟,outside,ar,سورية,capstone
+D041,بدي أعرف وين معاملة جواز السفر,outside,ar,سورية,capstone
+D042,فيكن تحجزولي طاولة بالمطعم؟,outside,ar,سورية,capstone
+D042,شو بتشمل باقة تصوير المنتجات عندكن؟,package_pricing,ar,سورية,capstone
+D043,أريد أحجز تصوير تخرج، شنو المواعيد العدكم؟,session_booking,ar,عراقية,capstone
+D043,بيش باقة تصوير العائلة؟,package_pricing,ar,عراقية,capstone
+D044,رابط الألبوم ما يفتح عندي شسوي؟,gallery_access,ar,عراقية,capstone
+D044,ممكن تعدلون اللون لأن الصورة كلش غامقة؟,edit_request,ar,عراقية,capstone
+D045,شكد كلفة تصوير الحفلة ساعتين؟,package_pricing,ar,عراقية,capstone
+D045,أكدر أبدّل موعد التصوير للأسبوع الجاي؟,session_booking,ar,عراقية,capstone
+D046,أريد تشيلون البقعة من خلفية الصورة,edit_request,ar,عراقية,capstone
+D046,شلون أنزّل الصور كلها سوه؟,gallery_access,ar,عراقية,capstone
+D047,شلون أجدّد جوازي؟,outside,ar,عراقية,capstone
+D047,شنو نتائج مباريات اليوم؟,outside,ar,عراقية,capstone
+D048,أريد أحجز غرفة بفندق,outside,ar,عراقية,capstone
+D048,متوفر مصور يوم الخميس بالليل؟,session_booking,ar,عراقية,capstone
+D049,بغيت نحجز جلسة تصوير للتخرج، واش عندكم وقت؟,session_booking,ar,مغربية,capstone
+D049,بشحال باقة تصوير المنتجات؟,package_pricing,ar,مغربية,capstone
+D050,الرابط ديال الألبوم ما خدامش,gallery_access,ar,مغربية,capstone
+D050,واش ممكن تحيدو داك الكرسي من التصويرة؟,edit_request,ar,مغربية,capstone
+D051,شحال غادي نزيد إلا بغيت ساعة تصوير أخرى؟,package_pricing,ar,مغربية,capstone
+D051,نقدر نبدل الموعد ديال التصوير للسبت؟,session_booking,ar,مغربية,capstone
+D052,بغيت نصلح الألوان ديال الصور,edit_request,ar,مغربية,capstone
+D052,كيفاش نحمّل التصاور كاملين فالتليفون؟,gallery_access,ar,مغربية,capstone
+D053,كيفاش ناخد موعد باش نجدد الباسبور؟,outside,ar,مغربية,capstone
+D053,شحال ثمن تذكرة الطيارة؟,outside,ar,مغربية,capstone
+D054,واش كاين شي قطار لمراكش؟,outside,ar,مغربية,capstone
+D054,ما وصلنيش الكود ديال المعرض,gallery_access,ar,مغربية,capstone
+D055,أود حجز جلسة لتصوير منتجات الشركة,session_booking,ar,فصحى,capstone
+D055,ما تكلفة تغطية حفل لمدة ثلاث ساعات؟,package_pricing,ar,فصحى,capstone
+D056,هل يمكن إزالة انعكاس الزجاج من الصورة؟,edit_request,ar,فصحى,capstone
+D056,انتهت صلاحية رابط التنزيل، كيف أستعيده؟,gallery_access,ar,فصحى,capstone
+D057,هل يمكنني تغيير تاريخ جلسة التصوير؟,session_booking,ar,فصحى,capstone
+D057,هل تتضمن الباقة صوراً مطبوعة؟,package_pricing,ar,فصحى,capstone
+D058,أين أجد كلمة المرور الخاصة بمعرض الصور؟,gallery_access,ar,فصحى,capstone
+D058,يرجى تصحيح الميل في صورة المبنى,edit_request,ar,فصحى,capstone
+D059,كيف أتابع حالة طلب التأشيرة؟,outside,ar,فصحى,capstone
+D059,ما مواعيد الرحلات المتجهة إلى القاهرة؟,outside,ar,فصحى,capstone
+D060,هل توفرون خدمة تأجير السيارات؟,outside,ar,فصحى,capstone
+D060,أحتاج عرض سعر لتصوير منتجات متجر إلكتروني,package_pricing,ar,فصحى,capstone
+D061,Can I book a graduation photoshoot in Riyadh this Friday?,session_booking,en,English,capstone
+D061,How much is the graduation package for two people?,package_pricing,en,English,capstone
+D062,"My gallery link has expired, could you send another?",gallery_access,en,English,capstone
+D062,Can you remove the reflection from my glasses?,edit_request,en,English,capstone
+D063,Do you charge extra for one more hour of coverage?,package_pricing,en,English,capstone
+D063,Could we move our session to the following weekend?,session_booking,en,English,capstone
+D064,Please brighten the group portrait a little,edit_request,en,English,capstone
+D064,How do I download the full album in one go?,gallery_access,en,English,capstone
+D065,Is a photographer available for our store opening?,session_booking,en,English,capstone
+D065,What is included in your event photography package?,package_pricing,en,English,capstone
+D066,The password for our online gallery is not working,gallery_access,en,English,capstone
+D066,Could you crop out the empty space at the side?,edit_request,en,English,capstone
+D067,I need to reschedule my family shoot in Jeddah,session_booking,en,English,capstone
+D067,Where can I find the original files from our shoot?,gallery_access,en,English,capstone
+D068,Can I get a quote for photos of fifteen products?,package_pricing,en,English,capstone
+D068,Could you make the background pure white?,edit_request,en,English,capstone
+D069,How do I renew my passport?,outside,en,English,capstone
+D069,Where can I apply for a driving licence?,outside,en,English,capstone
+D070,Do printed copies cost more than digital ones?,package_pricing,en,English,capstone
+D070,I would like to reserve a photo booth for Thursday,session_booking,en,English,capstone
+D071,Can you fix the red tint in my headshot?,edit_request,en,English,capstone
+D071,What would another set of prints cost?,package_pricing,en,English,capstone
+D072,My photo download stops halfway through,gallery_access,en,English,capstone
+D072,Are there any slots for an engagement shoot next month?,session_booking,en,English,capstone
+D073,Where can I buy football tickets?,outside,en,English,capstone
+D073,What was the score of last night's match?,outside,en,English,capstone
+D074,Can I book a hotel room for Saturday?,outside,en,English,capstone
+D074,Is there a train to the airport?,outside,en,English,capstone
+D075,Please change the date of the product shoot,session_booking,en,English,capstone
+D075,Please touch up the scratch on the perfume bottle,edit_request,en,English,capstone
+D076,What is your rate for a two-hour studio session?,package_pricing,en,English,capstone
+D076,I cannot access the gallery on my phone,gallery_access,en,English,capstone
+D077,Can you remove the person in the background?,edit_request,en,English,capstone
+D077,The album asks me to enter an access code,gallery_access,en,English,capstone
+D078,How do I pay a parking fine?,outside,en,English,capstone
+D078,Can you recommend a pizza place?,outside,en,English,capstone
+D079,Do you have a booking for a corporate portrait session next week?,session_booking,en,English,capstone
+D079,What does your family photo package include?,package_pricing,en,English,capstone
+D080,I would like a black and white version of the wedding photo,edit_request,en,English,capstone
+D080,Where is the link to our wedding album?,gallery_access,en,English,capstone
+D081,What's the weather in Riyadh tomorrow?,outside,en,English,capstone
+D081,Is there a morning slot for our newborn pictures?,session_booking,en,English,capstone
+D082,How much do you charge per additional edited image?,package_pricing,en,English,capstone
+D082,Can you help me save high-resolution photos?,gallery_access,en,English,capstone

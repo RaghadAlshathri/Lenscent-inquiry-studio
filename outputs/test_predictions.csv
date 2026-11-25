@@ -1,0 +1,53 @@
+﻿customer_id,topic,language,dialect,source,prediction,route,faq_id,margin,correct,masked_text,length
+LC04,package_pricing,ar,سعودية,lab3a,package_pricing,answer,P01,0.6786475638873536,True,بكم تصوير عشرين قطعة للمتجر بخلفية موحّدة؟,طويلة
+LC04,edit_request,ar,سعودية,lab3a,package_pricing,answer,P01,0.21862991527117553,False,ياليت توحدون الخلفية البيضاء في صور المنتجات.,طويلة
+LC08,edit_request,ar,سعودية,lab3a,edit_request,answer,E01,0.76846493960989,True,لون القهوة طالع غامق، ممكن تفتحونه شوي؟,طويلة
+LC08,gallery_access,ar,سعودية,lab3a,gallery_access,clarify_faq,,0.6337588309635888,True,كيف أحمّل الألبوم كامل مرة وحدة؟,قصيرة
+LC15,session_booking,ar,سعودية,lab3a,session_booking,answer,B01,0.8249136869381452,True,وش الأوقات المتوفرة عندكم لجلسة تصوير مولود؟,طويلة
+LC15,gallery_access,ar,سعودية,lab3a,gallery_access,clarify_faq,,1.079771850001321,True,أحتاج رابط جديد للمعرض عشان أنزل صور المولود.,طويلة
+D002,session_booking,ar,سعودية,capstone,session_booking,clarify_topic,,0.061703778628632855,True,كيف أغيّر وقت جلستي من العصر للمغرب؟,طويلة
+D002,gallery_access,ar,سعودية,capstone,gallery_access,answer,G01,1.01251980108155,True,كيف أشارك رابط الألبوم مع أمي؟,قصيرة
+D006,session_booking,ar,سعودية,capstone,outside,clarify_topic,,0.040819455723630715,False,أبي أنقل الحجز ليوم ثاني، يناسبكم الأحد؟,طويلة
+D006,gallery_access,ar,سعودية,capstone,gallery_access,answer,G01,1.1252789308937823,True,للحين ما وصلني رابط المعرض وين ألقاه؟,طويلة
+D009,package_pricing,ar,سعودية,capstone,package_pricing,answer,P01,0.6776583718147476,True,كم سعر فوتوبوث لمدة ليلتين في الخبر؟,طويلة
+D009,session_booking,ar,سعودية,capstone,outside,outside,,0.3802040715020311,False,أبي أحجز فوتوبوث للحفل، فيه مواعيد؟,قصيرة
+D012,edit_request,ar,سعودية,capstone,edit_request,answer,E01,0.9131153528780499,True,الإضاءة حيل قوية، ممكن تخففونها؟,قصيرة
+D012,package_pricing,ar,سعودية,capstone,package_pricing,answer,P01,0.5372655905690744,True,إيش أسعار الباقات حقت تصوير المطاعم؟,قصيرة
+D013,outside,ar,سعودية,capstone,outside,outside,,0.3327481036943025,True,وش نتيجة مباراة الهلال أمس؟,قصيرة
+D013,outside,ar,سعودية,capstone,session_booking,answer,B01,0.31890624753500707,False,عندكم جدول مباريات الأسبوع؟,قصيرة
+D015,gallery_access,ar,سعودية,capstone,gallery_access,answer,G01,1.3310406005808169,True,يطلب مني المعرض كلمة مرور وش أسوي؟,طويلة
+D015,session_booking,ar,سعودية,capstone,session_booking,answer,B02,0.7447649294528057,True,ممكن تثبتون موعد جلسة لخريجات الجامعة؟,قصيرة
+D016,package_pricing,ar,سعودية,capstone,package_pricing,clarify_faq,,0.8467393749216211,True,وش فرق التكلفة بين الباقتين؟,قصيرة
+D016,edit_request,ar,سعودية,capstone,edit_request,answer,E02,0.41055776266176597,True,الخصل على الوجه ودي تنشال من اللقطة,طويلة
+D021,session_booking,ar,كويتية,capstone,session_booking,answer,B01,1.0133986702750484,True,أبي أحجز جلسة تصوير حق تخرجي، شنو المواعيد؟,طويلة
+D021,package_pricing,ar,كويتية,capstone,package_pricing,answer,P01,0.886942153365462,True,بجم باقة التخرج عندكم؟,قصيرة
+D026,outside,ar,كويتية,capstone,outside,outside,,1.1855959660111468,True,شلون أجدد رخصة السيارة؟,قصيرة
+D026,outside,ar,كويتية,capstone,outside,outside,,0.9974042341390607,True,وين ألقى مواعيد الباص؟,قصيرة
+D030,edit_request,ar,مصرية,capstone,edit_request,clarify_faq,,2.051472725514865,True,ممكن تشيلوا الكرسي اللي ورايا في الصورة؟,طويلة
+D030,gallery_access,ar,مصرية,capstone,gallery_access,answer,G01,1.2448304513019839,True,لينك الألبوم مش بيفتح عندي,قصيرة
+D034,outside,ar,مصرية,capstone,outside,clarify_topic,,0.130049398222861,True,أطلع بدل فاقد للبطاقة إزاي؟,قصيرة
+D034,outside,ar,مصرية,capstone,outside,outside,,0.5673576709273431,True,مواعيد المترو النهارده إيه؟,قصيرة
+D037,session_booking,ar,سورية,capstone,session_booking,answer,B01,1.1341004490349547,True,بدي احجز جلسة تصوير للتخرج، شو الأوقات الفاضية؟,طويلة
+D037,package_pricing,ar,سورية,capstone,package_pricing,answer,P01,0.5988063550132036,True,قديش سعر باقة الصور العائلية؟,قصيرة
+D039,session_booking,ar,سورية,capstone,session_booking,clarify_faq,,0.9879660951076332,True,فيني غيّر موعد الجلسة للسبت؟,قصيرة
+D039,package_pricing,ar,سورية,capstone,package_pricing,answer,P02,1.1858724470499826,True,قديش بتزيد التكلفة إذا زدنا نص ساعة؟,طويلة
+D044,gallery_access,ar,عراقية,capstone,gallery_access,answer,G01,1.6146769513843262,True,رابط الألبوم ما يفتح عندي شسوي؟,قصيرة
+D044,edit_request,ar,عراقية,capstone,edit_request,answer,E01,1.6994324898318518,True,ممكن تعدلون اللون لأن الصورة كلش غامقة؟,طويلة
+D050,gallery_access,ar,مغربية,capstone,gallery_access,clarify_faq,,0.8149318286239895,True,الرابط ديال الألبوم ما خدامش,قصيرة
+D050,edit_request,ar,مغربية,capstone,edit_request,clarify_topic,,0.07097432913336882,True,واش ممكن تحيدو داك الكرسي من التصويرة؟,طويلة
+D054,outside,ar,مغربية,capstone,outside,outside,,0.22115821707671413,True,واش كاين شي قطار لمراكش؟,قصيرة
+D054,gallery_access,ar,مغربية,capstone,gallery_access,answer,G01,0.512017734509761,True,ما وصلنيش الكود ديال المعرض,قصيرة
+D057,session_booking,ar,فصحى,capstone,session_booking,answer,B01,0.4147809056955636,True,هل يمكنني تغيير تاريخ جلسة التصوير؟,قصيرة
+D057,package_pricing,ar,فصحى,capstone,package_pricing,answer,P02,0.9646085873404812,True,هل تتضمن الباقة صوراً مطبوعة؟,قصيرة
+D064,edit_request,en,English,capstone,session_booking,clarify_topic,,0.10085773066772935,False,Please brighten the group portrait a little,طويلة
+D064,gallery_access,en,English,capstone,gallery_access,answer,G02,0.698541992506439,True,How do I download the full album in one go?,طويلة
+D069,outside,en,English,capstone,gallery_access,answer,G01,0.19215474606411764,False,How do I renew my passport?,قصيرة
+D069,outside,en,English,capstone,outside,clarify_topic,,0.056806280205368376,True,Where can I apply for a driving licence?,طويلة
+D071,edit_request,en,English,capstone,edit_request,answer,E02,0.24297448141051842,True,Can you fix the red tint in my headshot?,طويلة
+D071,package_pricing,en,English,capstone,package_pricing,clarify_faq,,0.3547594063148063,True,What would another set of prints cost?,طويلة
+D078,outside,en,English,capstone,gallery_access,clarify_topic,,0.1495448877738217,False,How do I pay a parking fine?,طويلة
+D078,outside,en,English,capstone,edit_request,clarify_faq,,0.2721048672249836,False,Can you recommend a pizza place?,قصيرة
+D081,outside,en,English,capstone,package_pricing,clarify_topic,,0.0634760716382663,False,What's the weather in Riyadh tomorrow?,طويلة
+D081,session_booking,en,English,capstone,session_booking,answer,B01,0.4222184071644548,True,Is there a morning slot for our newborn pictures?,طويلة
+D082,package_pricing,en,English,capstone,package_pricing,clarify_faq,,0.38169254700815936,True,How much do you charge per additional edited image?,طويلة
+D082,gallery_access,en,English,capstone,package_pricing,clarify_topic,,0.057376935677619256,False,Can you help me save high-resolution photos?,طويلة

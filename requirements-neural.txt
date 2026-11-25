@@ -1,0 +1,5 @@
+-r requirements.txt
+torch>=2.6,<3
+transformers==4.53.3
+sentence-transformers==5.1.2
+faiss-cpu==1.12.0

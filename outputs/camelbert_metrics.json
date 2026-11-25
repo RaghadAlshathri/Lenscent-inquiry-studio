@@ -1,0 +1,18 @@
+{
+  "model": "CAMeL-Lab/bert-base-arabic-camelbert-mix",
+  "epochs": 3,
+  "seed": 37,
+  "learning_rate": 2e-05,
+  "batch_size": 8,
+  "max_length": 64,
+  "device": "cpu",
+  "test_messages": 52,
+  "dataset_sha256": "ac1a40b1d0b4dcb9bedd9aba924da25cdc862f1e5104e509b5a04d0bf5eff01e",
+  "validation_f1": [
+    0.06857142857142857,
+    0.47888888888888886,
+    0.6124886877828055
+  ],
+  "accuracy": 0.8076923076923077,
+  "macro_f1": 0.8100287081339712
+}

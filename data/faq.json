@@ -1,0 +1,132 @@
+[
+  {
+    "id": "B01",
+    "topic": "session_booking",
+    "ar": "حجز جلسة جديدة",
+    "en": "Book a new session",
+    "answer_ar": "يسعدنا ترتيب الجلسة. ما نوع التصوير والمدينة والتاريخ المناسب؟",
+    "answer_en": "What type of shoot, city and date do you have in mind? The studio can check availability with those details.",
+    "queries": [
+      "كيف أحجز موعد جلسة تصوير جديدة؟",
+      "أبي مصورة متاحة لتصوير تخرجي في الرياض",
+      "عندكم وقت فاضي للتصوير هذا الأسبوع؟",
+      "عايزة أحجز سيشن تصوير",
+      "book a new photo session",
+      "photographer availability on my date",
+      "reserve a graduation shoot"
+    ]
+  },
+  {
+    "id": "B02",
+    "topic": "session_booking",
+    "ar": "تغيير موعد حجز قائم",
+    "en": "Reschedule a booking",
+    "answer_ar": "ما تاريخ الحجز الحالي والموعد البديل المناسب؟ يراجع الفريق توفر الموعد الجديد.",
+    "answer_en": "What is your current booking date, and which date would suit you better? The studio can check the new slot.",
+    "queries": [
+      "ودي أغيّر موعد حجز التصوير",
+      "أقدر أأجل جلستي ليوم ثاني؟",
+      "ممكن نبدّل تاريخ الحجز الحالي؟",
+      "change an existing booking",
+      "move my shoot to a different day",
+      "reschedule the appointment"
+    ]
+  },
+  {
+    "id": "P01",
+    "topic": "package_pricing",
+    "ar": "سعر الباقة ومحتواها",
+    "en": "Package price and inclusions",
+    "answer_ar": "يعتمد عرض السعر على نوع التصوير ومدة التغطية. ما الخدمة والمدة المطلوبة؟",
+    "answer_en": "The quote depends on the type of shoot and coverage time. What service and duration do you have in mind?",
+    "queries": [
+      "كم سعر باقة التصوير ووش تشمل؟",
+      "بكم جلسة تخرج أو تصوير منتجات؟",
+      "السيشن بكام",
+      "شنو العروض عندكم للتصوير",
+      "cost and inclusions of a photography package",
+      "what are your rates",
+      "quote for product photos"
+    ]
+  },
+  {
+    "id": "P02",
+    "topic": "package_pricing",
+    "ar": "تكلفة الإضافات",
+    "en": "Price of an add-on",
+    "answer_ar": "ما الباقة الحالية والإضافة المطلوبة؟ يقدر الفريق يحسب تكلفة الساعات أو الطبعات الإضافية.",
+    "answer_en": "Which package and add-on are you considering? The team can quote additional hours, prints or images.",
+    "queries": [
+      "بكم ساعة إضافية فوق الباقة؟",
+      "كم أزيد مقابل صور مطبوعة زيادة؟",
+      "تكلفة تمديد التغطية ساعة ثانية",
+      "additional hour or extra prints price",
+      "how much extra for more images",
+      "cost to extend the coverage"
+    ]
+  },
+  {
+    "id": "E01",
+    "topic": "edit_request",
+    "ar": "تعديل اللون والإضاءة",
+    "en": "Adjust colour or exposure",
+    "answer_ar": "ما رقم الصورة؟ وهل التعديل المطلوب في اللون أو الإضاءة؟",
+    "answer_en": "Which image needs editing, and what would you like to change about its colour or exposure?",
+    "queries": [
+      "عدّلوا لون الصورة والإضاءة",
+      "الصورة غامقة ودي تفتحونها",
+      "ممكن توازن الأبيض وتخفيف الاصفرار؟",
+      "brighten a dark photo or change colour",
+      "fix the lighting and the color cast",
+      "adjust exposure and contrast"
+    ]
+  },
+  {
+    "id": "E02",
+    "topic": "edit_request",
+    "ar": "تنقيح الصورة وقصّها",
+    "en": "Retouch or crop a photo",
+    "answer_ar": "ما رقم الصورة والعنصر المطلوب قصّه أو إزالته؟ نسخة عليها علامة تساعد المحرر في تحديد المكان.",
+    "answer_en": "Which image and which area need retouching? A marked-up copy helps the editor locate the spot.",
+    "queries": [
+      "شيلوا الشخص اللي بالخلفية أو قصوا طرف الصورة",
+      "إزالة انعكاس النظارة وتنظيف الخلفية",
+      "أبي أحذف الكرسي من اللقطة",
+      "remove an object from the background",
+      "crop the photo or retouch a reflection",
+      "erase a blemish in the picture"
+    ]
+  },
+  {
+    "id": "G01",
+    "topic": "gallery_access",
+    "ar": "الرابط ورمز الدخول",
+    "en": "Gallery link or passcode",
+    "answer_ar": "يقدر الفريق يراجع حالة الرابط باستخدام مرجع الجلسة. ما مرجع جلستك؟ رمز الدخول يبقى خاصًا بك.",
+    "answer_en": "The studio can check the gallery link using your session reference. What is the reference for your shoot? Your passcode stays private.",
+    "queries": [
+      "وين رابط المعرض أو كلمة المرور؟",
+      "انتهت صلاحية رابط الألبوم وما يفتح",
+      "لينك الصور مش شغال ولا وصلني",
+      "gallery link missing or expired",
+      "cannot open the album with the access code",
+      "password to enter my gallery"
+    ]
+  },
+  {
+    "id": "G02",
+    "topic": "gallery_access",
+    "ar": "تنزيل الصور من المعرض",
+    "en": "Download gallery files",
+    "answer_ar": "خيار التنزيل متاح داخل المعرض عند تحديد الصور. إذا توقف التحميل، ما نوع الجهاز ورسالة الخطأ الظاهرة؟",
+    "answer_en": "The download option appears after a photo selection in galleries that allow downloads. If a transfer stalls, which device and error message are involved?",
+    "queries": [
+      "كيف أنزل كل الصور من الألبوم؟",
+      "التحميل يوقف والملف المضغوط ما ينزل",
+      "تحميل الصور الأصلية على الجوال",
+      "download all photos to my phone",
+      "save original files from the gallery",
+      "my zip download stops halfway"
+    ]
+  }
+]

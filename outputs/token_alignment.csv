@@ -1,0 +1,8 @@
+﻿token_index,token,word_id,aligned_label
+0,[CLS],,-100
+1,طلبت,0.0,O
+2,رغ,1.0,B-PER
+3,##د,1.0,-100
+4,تصوير,2.0,B-SERVICE
+5,بالرياض,3.0,B-LOC
+6,[SEP],,-100
